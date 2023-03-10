@@ -338,6 +338,6 @@ print(var_importances[['Variable','Node1_SplitCount', 'Node1_AvgThreshold']])
 print(var_importances[['Variable','Node2_SplitCount', 'Node2_AvgThreshold']])
 
 #writing split counts and thresholds to a csv
-var_importances.to_csv(r'D:\School\MSIS 5223\feature_importances.csv', sep=',')
+var_importances.to_csv(r'feature_importances.csv', sep=',')
 
 
