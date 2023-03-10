@@ -1,2 +1,2 @@
 # Projects
-Code files for non-work projects
+Code files for class or personal projects in R
