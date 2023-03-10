@@ -14,10 +14,10 @@ df <- read_excel('twitter_users.xlsx', sheet=1, col_names = TRUE)
 #authenticating twitter session/app
 twitter_token <- create_token(
   app = 'MSIS5193_Project',
-  consumer_key = 'VYJMVzgm8TTIh3k3zMaLM2bKC',
-  consumer_secret = '4QqRkvMUZatulVTw4GCkqjQQAIyDOKo02OE8gIUwEkdptw4QL7',
-  access_token = '1296642948906602496-4HLo948uGOmN2NfhUUyyzXATceLnjO',
-  access_secret = 'iQc2raU9i8bIYkR0SFJvx2zRqWufSNey1qM4PRPnZ0WNf')
+  consumer_key = 'XXXXXXXXXXXXXXXMaLM2bKC',
+  consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXtw4QL7',
+  access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXATceLnjO',
+  access_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXZ0WNf')
 
 #Removing rows with no twitter handle for the purpose of collecting twitter data
 #Twitter data will be added to the original dataset where all movies remain
