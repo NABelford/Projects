@@ -1,6 +1,6 @@
 library(tidyverse)
 
-var_importances <- read.csv('D:\\School\\MSIS 5223\\feature_importances.csv',header=TRUE)
+var_importances <- read.csv('feature_importances.csv',header=TRUE)
 
 #reading in main dataset
 data <- read.csv('flatfile.csv', header=TRUE)
